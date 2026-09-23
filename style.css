@@ -464,8 +464,7 @@ nav a:hover
     gap:5px
 }
 
-.traffic i
-{
+.traffic i {
     width:6px;
     height:6px;
     border-radius:50%;

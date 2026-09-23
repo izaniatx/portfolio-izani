@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Izani Achega — desarrollador web junior.">
+<title>Izani Atxega — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<div class="spotlight"></div>
+
+<header>
+  <a class="brand" href="#home"><span class="dot"></span> izani<span>.dev</span></a>
+  <nav>
+    <a href="#work">work</a><a href="#stack">stack</a><a href="#about">about</a>
+  </nav>
+  <button class="terminal-trigger" id="openTerminal">⌘ terminal</button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-top">
+    <div class="status"><span></span> available for new projects</div>
+    <div class="time" id="clock">--:--:--</div>
+  </div>
+  <div class="hero-main">
+    <div class="code-label mono">// hello_world.js</div>
+    <h1>Hi, I'm <span>Izani</span>.<br>I build <i>web things.</i></h1>
+    <p class="intro">Desarrollador web junior. Me gusta convertir ideas en interfaces que funcionan, se sienten rápidas y tienen alguna sorpresa escondida.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#work">ver proyectos <b>↘</b></a>
+      <button class="btn ghost" id="surprise">no hagas clic</button>
+    </div>
+  </div>
+  <div class="hero-bottom mono">
+    <span>HTML / CSS / JS / REACT / LARAVEL / WP</span>
+    <span>scroll ↓</span>
+  </div>
+</section>
+
+<section id="work" class="work">
+  <div class="section-head"><span class="number">01</span><h2>selected_work<span>()</span></h2><span class="mono">2 projects</span></div>
+
+  <article class="project p1">
+    <div class="project-window">
+      <div class="window-bar">
+          <span class="traffic">
+              <i id="i-01"></i>
+              <i id="i-02"></i>
+              <i id="i-03"></i>
+          </span>
+          <span>ongarbi.com</span>
+          <a href="https://www.ongarbi.com/" target="_blank">
+              ↗
+          </a>
+      </div>
+      <div class="window-body">
+          <img 
+              src="images/ongarbi.webp"
+              alt="Proyecto Ongarbi"
+          >
+      </div>
+    </div>
+    <div class="project-info">
+      <div class="project-meta"><span>01</span><span>WEB CORPORATIVA</span></div>
+      <h3>ONGARBI</h3>
+      <p>Web corporativa para una empresa de limpieza. Una solución sencilla y funcional para reforzar su presencia digital.</p>
+      <div class="chips"><span>HTML</span><span>IONOS</span></div>
+      <a href="https://www.ongarbi.com/" target="_blank" rel="noreferrer">open_project() ↗</a>
+    </div>
+  </article>
+
+  <article class="project p2">
+    <div class="project-info">
+      <div class="project-meta"><span>02</span><span>FULL STACK / IN PROGRESS</span></div>
+      <h3>ARO<br>AUTOMOCIÓN</h3>
+      <p>Aplicación web para la gestión de un concesionario. Un proyecto más ambicioso con frontend moderno y backend preparado para crecer.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>JS</span><span>REACT</span><span>LARAVEL</span></div>
+      <a href="#contact">building... ↗</a>
+    </div>
+    <div class="dashboard">
+      <div class="dash-top"><span>ARO / dashboard</span><b>● LIVE</b></div>
+      <div class="dash-grid">
+        <div class="stat"><small>VEHICLES</small><strong>128</strong><span>+12%</span></div>
+        <div class="stat"><small>LEADS</small><strong>034</strong><span>+08%</span></div>
+        <div class="chart"><div class="bars"><i style="height:30%"></i><i style="height:48%"></i><i style="height:38%"></i><i style="height:72%"></i><i style="height:56%"></i><i style="height:88%"></i><i style="height:68%"></i></div><small>ACTIVITY / 7 DAYS</small></div>
+      </div>
+      <div class="dash-car">ARO<span>///</span></div>
+    </div>
+  </article>
+</section>
+
+<section id="stack" class="stack-section">
+  <div class="section-head"><span class="number">02</span><h2>my_stack<span>[]</span></h2><span class="mono">currently learning</span></div>
+  <div class="stack-stage">
+    <div class="core"><span>DEV</span><b>IZANI</b><small>v2.6.0</small></div>
+    <div class="orbit o1"><span>React</span></div><div class="orbit o2"><span>JavaScript</span></div>
+    <div class="orbit o3"><span>Laravel</span></div><div class="orbit o4"><span>WordPress</span></div>
+    <div class="orbit o5"><span>SEO</span></div><div class="orbit o6"><span>Analytics</span></div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="section-head"><span class="number">03</span><h2>about_me<span>;</span></h2><span class="mono">human.txt</span></div>
+  <div class="about-grid">
+    <div class="terminal-card">
+      <div class="terminal-head"><span>~/izani</span><span>● ● ●</span></div>
+      <div class="terminal-body mono">
+        <p><b>$</b> whoami</p><p class="green">izani_achega</p>
+        <p><b>$</b> cat interests.txt</p>
+        <p>web_development<br>ui_experiments<br>problem_solving<br>learning_new_things</p>
+        <p><b>$</b> ./coffee --amount=∞</p>
+        <p class="green">☕ compiling...</p>
+      </div>
+    </div>
+    <div class="about-copy">
+      <h3>No soy un robot.<br>Pero me llevo bien con el código.</h3>
+      <p>Soy Izani Achega, desarrollador web junior con experiencia en desarrollo, WordPress, SEO técnico, analítica y soporte informático.</p>
+      <p>Me interesa especialmente el frontend y todo lo que ocurre entre una idea y una web que realmente puedes usar.</p>
+      <div class="facts"><div><small>BASED IN</small><b>DONOSTIA</b></div><div><small>FOCUS</small><b>WEB / DIGITAL</b></div><div><small>STATUS</small><b>BUILDING</b></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="experience">
+  <div class="section-head"><span class="number">04</span><h2>experience.log<span>()</span></h2><span class="mono">2024—2026</span></div>
+  <div class="timeline">
+    <div class="exp"><time>03.2026 — 06.2026</time><div><b>Desarrollador Web y SEO</b><p>Borja Barrado Diseño Web y SEO · Donostia</p><small>WordPress · SEO técnico · Google Analytics</small></div></div>
+    <div class="exp"><time>05.2025 — 08.2025</time><div><b>Técnico Informático</b><p>Inkode</p><small>TPVs · mantenimiento · soporte técnico · atención al cliente</small></div></div>
+    <div class="exp"><time>03.2024 — 06.2024</time><div><b>Técnico Informático</b><p>Disconsu</p><small>Impresoras · dispositivos electrónicos · mantenimiento · soporte</small></div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-card">
+    <span class="mono">// end_of_file</span>
+    <h2>¿Hacemos<br>algo <i>guapo?</i></h2>
+    <p>Si tienes una idea, una web que mejorar o simplemente quieres saludar:</p>
+    <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com <span>↗</span></a>
+    <div class="contact-footer"><span>izani.exe</span><span>made with &lt;code&gt; + ☕</span><span>© 2026</span></div>
+  </div>
+</section>
+</main>
+
+<div class="terminal-modal" id="terminal">
+  <div class="terminal-box">
+    <div class="terminal-head"><span>izani@portfolio:~</span><button id="closeTerminal">×</button></div>
+    <div class="terminal-output mono" id="output"><p>Welcome to izani.exe</p><p>Type <b>help</b> to see available commands.</p></div>
+    <form id="terminalForm" class="mono"><span>❯</span><input id="terminalInput" autocomplete="off" spellcheck="false"></form>
+  </div>
+</div>
+
+<div class="toast" id="toast">Easter egg unlocked 🦆</div>
+<script src="script.js"></script>
+</body>
+</html>
